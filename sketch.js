@@ -149,14 +149,14 @@ function spawnClouds() {
     cloud.scale = 0.4;
     cloud.velocityX = -3;
     
-    //assign lifetime to the variable
+    //asignar lifetime a la variable
     cloud.lifetime = 134;
     
-    //adjust the depth
+    //ajustar la profundidad
     cloud.depth = trex.depth
     trex.depth = trex.depth + 1;
     
-    //add each cloud to the group
+    //agregar cada nube al grupo
     cloudsGroup.add(cloud);
     }
 }
